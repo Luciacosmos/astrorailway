@@ -1,1 +1,60 @@
-{}
+{
+  "chart_colors": {
+    "background": "#fffaf0",
+    "zodiac_signs": "#000000",
+    "houses": "#555555",
+    "aspects": {
+      "conjunction": "#000000",
+      "opposition": "#ff0000",
+      "trine": "#00cc66",
+      "square": "#cc3300",
+      "sextile": "#3399ff"
+    },
+    "planet_symbols": "#000000",
+    "circle": "#333333"
+  },
+  "celestial_points": {
+    "sun": "太阳",
+    "moon": "月亮",
+    "mercury": "水星",
+    "venus": "金星",
+    "mars": "火星",
+    "jupiter": "木星",
+    "saturn": "土星",
+    "uranus": "天王星",
+    "neptune": "海王星",
+    "pluto": "冥王星",
+    "true_node": "真实交点",
+    "chiron": "凯龙星"
+  },
+  "aspects": {
+    "conjunction": 0,
+    "opposition": 180,
+    "trine": 120,
+    "square": 90,
+    "sextile": 60
+  },
+  "language_settings": {
+    "chart_title": "本命星图",
+    "date_format": "YYYY年MM月DD日 HH:mm",
+    "planet_label": "星体",
+    "sign_label": "星座",
+    "house_label": "宫位",
+    "aspect_label": "相位",
+    "degree_label": "度数"
+  },
+  "general_settings": {
+    "precision": 2,
+    "use_cache": false,
+    "timezone": "auto"
+  },
+  "chart_settings": {
+    "radius": 250,
+    "center_x": 300,
+    "center_y": 300,
+    "width": 600,
+    "height": 600,
+    "show_house_numbers": true,
+    "show_degree_labels": true
+  }
+}
