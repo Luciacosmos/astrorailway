@@ -11,42 +11,83 @@
       "sextile": "#3399ff"
     },
     "planet_symbols": "#000000",
-    "circle": "#333333"
+    "circle": "#333333",
+    "paper_0": "#ffffff",
+    "paper_1": "#f8f8ff",
+    "zodiac_bg_0": "#f0f8ff",
+    "zodiac_bg_1": "#faebd7",
+    "zodiac_bg_2": "#00ffff",
+    "zodiac_bg_3": "#7fffd4",
+    "zodiac_bg_4": "#f0ffff",
+    "zodiac_bg_5": "#f5f5dc",
+    "zodiac_bg_6": "#ffe4c4",
+    "zodiac_bg_7": "#ffebcd",
+    "zodiac_bg_8": "#8a2be2",
+    "zodiac_bg_9": "#a52a2a",
+    "zodiac_bg_10": "#deb887",
+    "zodiac_bg_11": "#5f9ea0",
+    "zodiac_icon_0": "#000000",
+    "zodiac_icon_1": "#000000",
+    "zodiac_icon_2": "#000000",
+    "zodiac_icon_3": "#000000",
+    "zodiac_icon_4": "#000000",
+    "zodiac_icon_5": "#000000",
+    "zodiac_icon_6": "#000000",
+    "zodiac_icon_7": "#000000",
+    "zodiac_icon_8": "#000000",
+    "zodiac_icon_9": "#000000",
+    "zodiac_icon_10": "#000000",
+    "zodiac_icon_11": "#000000",
+    "zodiac_radix_ring_0": "#cccccc",
+    "zodiac_radix_ring_1": "#cccccc",
+    "zodiac_radix_ring_2": "#cccccc",
+    "zodiac_transit_ring_0": "#ffcc00",
+    "zodiac_transit_ring_1": "#ffcc00",
+    "zodiac_transit_ring_2": "#ffcc00",
+    "zodiac_transit_ring_3": "#ffcc00",
+    "houses_radix_line": "#333333",
+    "houses_transit_line": "#333333",
+    "lunar_phase_0": "#ffffff",
+    "lunar_phase_1": "#f0f0f0",
+    "lunar_phase_2": "#e0e0e0"
   },
-  "celestial_points": {
-    "sun": "太阳",
-    "moon": "月亮",
-    "mercury": "水星",
-    "venus": "金星",
-    "mars": "火星",
-    "jupiter": "木星",
-    "saturn": "土星",
-    "uranus": "天王星",
-    "neptune": "海王星",
-    "pluto": "冥王星",
-    "true_node": "真实交点",
-    "chiron": "凯龙星"
-  },
-  "aspects": {
-    "conjunction": 0,
-    "opposition": 180,
-    "trine": 120,
-    "square": 90,
-    "sextile": 60
-  },
+  "celestial_points": [
+    { "key": "sun", "label": "太阳" },
+    { "key": "moon", "label": "月亮" },
+    { "key": "mercury", "label": "水星" },
+    { "key": "venus", "label": "金星" },
+    { "key": "mars", "label": "火星" },
+    { "key": "jupiter", "label": "木星" },
+    { "key": "saturn", "label": "土星" },
+    { "key": "uranus", "label": "天王星" },
+    { "key": "neptune", "label": "海王星" },
+    { "key": "pluto", "label": "冥王星" },
+    { "key": "true_node", "label": "真实交点" },
+    { "key": "chiron", "label": "凯龙星" }
+  ],
+  "aspects": [
+    { "key": "conjunction", "angle": 0 },
+    { "key": "opposition", "angle": 180 },
+    { "key": "trine", "angle": 120 },
+    { "key": "square", "angle": 90 },
+    { "key": "sextile", "angle": 60 }
+  ],
   "language_settings": {
-    "chart_title": "本命星图",
-    "date_format": "YYYY年MM月DD日 HH:mm",
-    "planet_label": "星体",
-    "sign_label": "星座",
-    "house_label": "宫位",
-    "aspect_label": "相位",
-    "degree_label": "度数"
+    "chart_title": { "value": "本命星图" },
+    "date_format": { "value": "YYYY年MM月DD日 HH:mm" },
+    "planet_label": { "value": "星体" },
+    "sign_label": { "value": "星座" },
+    "house_label": { "value": "宫位" },
+    "aspect_label": { "value": "相位" },
+    "degree_label": { "value": "度数" }
   },
   "general_settings": {
     "precision": 2,
     "use_cache": false,
-    "timezone": "auto"
+    "timezone": "auto",
+    "axes_orbit": 360,
+    "planet_in_zodiac_extra_points": false,
+    "language": "zh"
   },
   "chart_settings": {
     "radius": 250,
@@ -55,6 +96,8 @@
     "width": 600,
     "height": 600,
     "show_house_numbers": true,
-    "show_degree_labels": true
+    "show_degree_labels": true,
+    "basic_chart_viewBox": "0 0 600 600",
+    "wide_chart_viewBox": "0 0 800 600"
   }
 }
